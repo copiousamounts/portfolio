@@ -31,6 +31,13 @@
     display: inline-block;
     float: right;
     position: relative;
+    margin-right: 200px;
+}
+
+ li {
+    display: inline-block;
+    margin-right: 20px;
+
 }
 
 .Mainheader {

@@ -11,6 +11,7 @@
     position: absolute;
     float: left;
     margin-left: 220px;
+    background-color: black;
 }
 
 .navbarText {

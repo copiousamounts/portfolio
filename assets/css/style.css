@@ -1,17 +1,18 @@
 .topnav {
     background-color: #ffffff;
-    display: inline-flex;
-    margin-right: 24%;
-    margin-top: 30px;
+    margin-right: 26%;
     float: right;
+
 }
 
 .header {
     
     float: left;
-    height: 20px;
-    margin-left: 25%;
+    height: 15px;
+    margin-left: 23%;
     background-color: #4aaaa5;
+    position: fixed;
+    top: 0;   
 }
 
 .navbarLinks {
@@ -23,7 +24,8 @@
     text-decoration: none;
     font-size: large;
     list-style-type: none;
-
+    top: 0;
+    
 }
 
 .navbarLinks:hover {    
@@ -33,8 +35,7 @@
 
 
 .nav {
-    float: right;
-    display: inline-block;
+    display: inline;
     position: relative;
     margin-right: 20px;
 }
@@ -51,17 +52,18 @@
     border-color: #cccccc;
     margin: auto;
     width: 100%;
-    padding: 30px;  
+    padding: 37px;  
     border-bottom: #cccccc 3px solid;
 }
 
 
 
 h1  {
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 20px;
     font-size: 35px;
     color: #ffffff;
+    
 }
 
 h2 {
@@ -189,6 +191,7 @@ body {
     border-radius: 10px;
     margin-left: 25px;
     margin-top: 15px;
+    
 }
 
 .portfolioPicture2 {
@@ -237,6 +240,7 @@ body {
     background-color: #4aaaa5;
     color: white;
    
+   
 }
 
 .conatiner3 {
@@ -244,6 +248,8 @@ body {
     height: 200px;
   
 }
+
+
 
 
 

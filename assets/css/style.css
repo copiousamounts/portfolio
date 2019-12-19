@@ -2,7 +2,7 @@
     background-color: #ffffff;
     margin-right: 26%;
     float: right;
-
+    transform: translateY(-50%);
 }
 
 .header {
@@ -10,6 +10,7 @@
     float: left;
     height: 15px;
     margin-left: 23%;
+    padding: 20px 30px 40px 30px;
     background-color: #4aaaa5;
     position: fixed;
     top: 0;   

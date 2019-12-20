@@ -3,6 +3,7 @@
 	float: right;
 	margin-right: 26%;
 	transform: translateY(-50%);
+	padding: 20 30 40 30;
 }
 .header {
 	background-color: #4aaaa5;
@@ -11,6 +12,7 @@
 	margin-left: 23%;
     padding: 20px 30px 40px 30px;
 	top: 0;
+	position: absolute;
 }
 .navbarLinks {
 	color: #666666;
@@ -102,8 +104,7 @@ p {
 	position: relative;
 	width: 960px;
 }
-body {
-}
+
 #selfie {
 	align-content: left;
 	border: #4aaaa5 5px solid;
@@ -151,10 +152,67 @@ body {
 .text1 {
 	background-color: #4aaaa5;
 	color: white;
-	height: 20px;
+	height: 40px;
 	position: absolute;
-    width: 20px;
+	width: 200px;
+	text-align: center;
+	margin-left: 26px;
+	margin-top: 150px;
+	font-size: 30px;
+
 }
+.text2 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 40px;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	margin-left: 253px;
+	margin-top: 150px;
+	font-size: 30px;
+
+}
+.text3 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 40px;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	margin-left: 480px;
+	margin-top: 150px;
+	font-size: 25px;
+	padding-bottom: 15px;
+
+}
+
+.text4 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 40px;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	margin-left: 708px;
+	margin-top: 150px;
+	font-size: 25px;
+
+}
+
+.text5 {
+	background-color: #4aaaa5;
+	color: white;
+	height: 50px;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	margin-left: 26px;
+	margin-top: 370px;
+	font-size: 25px;
+
+}
+
 
 .portfolioPicture1 {
 	border: solid #666666 1px;
@@ -164,6 +222,7 @@ body {
 	margin-left: 25px;
 	margin-top: 15px;
 	width: 200px;
+	z-index: 0;
 }
 .portfolioPicture2 {
 	border: solid #666666 1px;
@@ -173,6 +232,7 @@ body {
 	margin-left: 25px;
 	margin-top: 15px;
 	width: 200px;
+	z-index: 0;
 }
 .portfolioPicture3 {
 	border: solid #666666 1px;
@@ -182,6 +242,7 @@ body {
 	margin-left: 25px;
 	margin-top: 15px;
 	width: 200px;
+	z-index: 0;
 }
 .portfolioPicture4 {
 	border: solid #666666 1px;
@@ -191,6 +252,7 @@ body {
 	margin-left: 25px;
 	margin-top: 15px;
 	width: 200px;
+	z-index: 0;
 }
 .portfolioPicture5 {
 	border: solid #666666 1px;
@@ -200,6 +262,7 @@ body {
 	margin-left: 25px;
 	margin-top: 15px;
 	width: 200px;
+	z-index: 0;
 }
 
 .conatiner3 {
@@ -208,5 +271,6 @@ body {
 }
 
 .textBanner1 {
-    float: left;
+	float: left;
+	z-index: 2;
 }

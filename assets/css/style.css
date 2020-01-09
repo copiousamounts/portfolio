@@ -282,7 +282,9 @@ p {
 }
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+{
+
 
 	.container {
 		background-color: #ffffff;
@@ -304,7 +306,7 @@ p {
 		background-color: #4aaaa5;
 		float: left;
 		height: 15px;
-		margin-left: 0%;
+		margin-left: 2%;
 		padding: 20px 30px 40px 30px;
 		top: 0;
 		position: absolute;
@@ -320,7 +322,8 @@ p {
 		height: 600px;
 		margin: auto;
 		margin-top: 100px;
-		padding: 20px;
+		
+		padding: 10px;
 		position: relative;
 		width: 768px;
 	}
@@ -351,8 +354,9 @@ p {
 	
 	}
 
-	}
-	
+}
+
+
 
 	@media only screen and (min-device-width: 375px) and (max-device-height: 812px)
 	{
@@ -393,6 +397,7 @@ p {
 		height: 1300px;
 		margin: auto;
 		margin-top: 100px;
+		margin-left: 50px;
 		padding: 20px;
 		position: relative;
 		width: 375px;
@@ -476,7 +481,7 @@ p {
 	
 	}
 
-	.container3 {
+	/* .container3 {
 		background-color: #ffffff;
 		border: #4aaaa5 5px solid;
 		border-radius: 10px;
@@ -489,7 +494,7 @@ p {
 		margin-bottom: 100px;
 		position: relative;
 		width: 375px;
-	}
+	} */
 
 	.button {
 		background-color: #4aaaa5;
@@ -500,3 +505,4 @@ p {
 		width: 34%;
 	}
 		}
+	

@@ -1,10 +1,25 @@
 # portfolio
-The largest probelems that I ran into during this project was getting the borders over the images.  After bashing my head against the wall for hours trying to figure out why my banners were showing up behind my picutres I realized that they were not actually behind the picture at all. I just had the size of them set so small that they appeared this way. I also ended up using the z-index.
+A testing ground for my first website to showcase what I will be able to do as I grow.
 
-I could not figure out how to stack the images in the way in the picture however.
+I deployed this website on github.
 
-another issue that I have ran into that I cant seem to get fixed using only css is to get my nav bar to stop moving around when the screen size changes.
+Built With
 
-I do nothing think that I will run into any of these issues and my code will look much cleaner when I use bootstrap.
+HTML
+CSS
+Built for Responsive design, Regular screen size IE - Laptop - Monitor Phone Screens - Iphone X Ipad Screen
 
-My largest issues that I am running into are the formatting not being the same on different screen sizes which while using bootstrap should not be an issue at all.
+Testing was done with Google Chrome inspect function,
+
+I used Github as version control Authors
+
+Nick Hernstedt
+License
+
+I don't have any license except intellectual property
+
+Acknowledgments
+
+Hat tip to anyone whose code was used
+Inspiration
+Notes: This is a very basic website with very basic responsivness added. future websites will be built with responsivness in mind
